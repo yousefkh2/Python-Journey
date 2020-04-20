@@ -10,9 +10,10 @@ def window():
 
     label = QtWidgets.QLabel(win)
     label.setText("my first label")
-    label.move(50,50
-               )
+    label.move(50,50)
+    
     win.show()
     sys.exit(app.exec_())
 
 window()
+print("Hello world!")
